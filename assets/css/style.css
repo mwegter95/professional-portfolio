@@ -5,8 +5,18 @@
 }
 
 body {
-  color: black;
+  color: white;
+  background-color: black;
   font-family: Helvetica, Arial, sans-serif;
+}
+
+body a {
+    text-decoration: none;
+    color: white;
+}
+
+body a:hover {
+    color: gold;
 }
 
 header {
@@ -18,6 +28,7 @@ header {
     flex-wrap: wrap;
     font-weight: bold;
 }
+
 
 header ul {
     list-style: none;
@@ -45,5 +56,23 @@ header h1 {
 .subname {
     font-size: 16px;
     padding: 3px;
-    margin: 0;
+    margin-right: 50px;
+}
+
+/* End header styles */
+
+/* Begin hero styles */
+
+.hero div {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+section {
+    padding: 20px;
+}
+
+section li {
+    list-style: none;
 }
