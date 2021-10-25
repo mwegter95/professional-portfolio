@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: black;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    color: white;
+    background-color: black;
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
+
+header ul {
+    list-style: none;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+header a:hover {
+    color: gold;
+    font-style: bold;
+}
+
+header h1 {
+    width: 100%;
+}
+
+.myname {
+    line-height: 0px;
+    width: 100%;
+}
+
+.subname {
+    font-size: 16px;
+    padding: 3px;
+    margin: 0;
+}
