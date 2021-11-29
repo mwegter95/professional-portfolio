@@ -70,18 +70,27 @@ header h1 {
     flex: 0 1 100%;
 }
 
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 section {
     display: flex;
     padding: 20px;
     justify-content: center;
     width: 100%;
     flex: 1 0 100%;
+    flex-direction: column;
 }
 
 section li {
     list-style: none;
     display: flex;
+    padding: 20px;
 }
+
 
 section h2 {
     display: flex;
@@ -89,4 +98,8 @@ section h2 {
     padding: 20px;
     justify-content: space-between;
     width: 100%;
+}
+
+.row {
+    flex-direction: row;
 }
